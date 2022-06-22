@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
        for (i in k..k) {
 
 
-        item.add("Items $i")
+        item.add("$i")
       }
 
       return item
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
     fun fetchData(): ArrayList<String> {
         val list = ArrayList<String>()
         for (i in 1 until 15) {
-            list.add("Items $i")
+            list.add("$i")
         }
         return list
     }
